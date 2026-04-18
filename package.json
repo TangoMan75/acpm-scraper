@@ -1,0 +1,23 @@
+{
+  "name": "acpm-scraper",
+  "version": "0.1.0",
+  "description": "Monthly ACPM traffic data scraper for French media sites",
+  "main": "acpm-scraper.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node acpm-scraper.js",
+    "build": "node acpm-scraper.js build",
+    "test": "node --test test/**/*.test.js",
+    "lint": "node --check acpm-scraper.js"
+  },
+  "keywords": [
+    "acpm",
+    "scraper",
+    "media",
+    "analytics"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^29.0.2"
+  }
+}
